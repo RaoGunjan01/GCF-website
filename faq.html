@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | RentHelper Rules</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .faq-section details {
+            background-color: white;
+            padding: 15px 20px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .faq-section summary {
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            color: #2c3e50;
+            list-style: none; 
+            position: relative;
+            padding-right: 30px; 
+        }
+
+        
+        .faq-section summary::after {
+            content: '+';
+            font-size: 1.5em;
+            position: absolute;
+            right: 0;
+            top: -5px;
+            transition: transform 0.2s;
+        }
+
+        .faq-section details[open] summary::after {
+            content: '-';
+            transform: rotate(360deg);
+        }
+        
+        .faq-section p {
+            padding-top: 10px;
+            padding-left: 10px;
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html">🏠 RentHelper</a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="listing.html">View Houses</a>
+            <a href="contact.html">Book Appointment</a>
+            <a href="faq.html" class="active">FAQ / Help</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Frequently Asked Questions (FAQ)</h1>
+        <p>Find quick answers about our service, rental rules, and legalities.</p>
+
+        <div class="faq-section">
+            
+            <details>
+                <summary>1. What is the standard duration of a rental agreement?</summary>
+                <p>Rental agreements in India are typically drafted for 11 months. This duration avoids the need for property registration, reducing stamp duty and legal fees, though the contract is still binding.</p>
+            </details>
+
+            <details>
+                <summary>2. How much is the security deposit, and when is it refunded?</summary>
+                <p>The standard security deposit ranges from 1 to 3 months' rent, depending on the property type (flat vs. bungalow) and location. It is usually refunded within 30-60 days after vacating the property, minus any deductions for damages or pending utility bills.</p>
+            </details>
+
+            <details>
+                <summary>3. What is the role of the Broker Commission mentioned in the listings?</summary>
+                <p>The Broker Commission (or brokerage fee) is a one-time service charge paid to the broker for finding the property and facilitating the agreement between the tenant and the owner. This is typically equivalent to one month's rent or a fixed fee, as explicitly mentioned in the listing.</p>
+            </details>
+
+            <details>
+                <summary>4. Are utilities (water, electricity, gas) included in the monthly rent?</summary>
+                <p>No, generally utilities are not included. The tenant is responsible for paying monthly utility bills based on consumption. The rent amount covers only the property usage itself.</p>
+            </details>
+
+            <details>
+                <summary>5. Who is responsible for minor repairs (e.g., leaky taps, fused bulbs)?</summary>
+                <p>Minor, routine repairs (e.g., replacement of bulbs, taps, drainage clogs) are typically the tenant's responsibility. Major structural repairs (e.g., seepage, major electrical faults) are the responsibility of the owner/landlord.</p>
+            </details>
+            
+            <details>
+                <summary>6. Can I move out before the 11-month contract is over?</summary>
+                <p>Yes, but the agreement usually requires a notice period (commonly 30 or 60 days) to be given to the landlord. If the notice period is not served, a penalty (often forfeiture of the security deposit) may apply.</p>
+            </details>
+
+            <details>
+                <summary>7. Is police verification mandatory for tenants?</summary>
+                <p>Yes, police verification is legally mandatory in many regions, including Vadodara, and is usually facilitated by the landlord or broker after the agreement is signed.</p>
+            </details>
+
+            <details>
+                <summary>8. What documents do I need to secure a property?</summary>
+                <p>You will typically need a copy of your Aadhar Card, PAN Card, passport-size photographs, and employment/student verification documents.</p>
+            </details>
+
+            <details>
+                <summary>9. What does 'Semi-furnished' mean on your listings?</summary>
+                <p>Semi-furnished usually means the property includes basic fixtures like fans, lights, geysers, and modular kitchen cabinets. It does not typically include beds, sofas, or major appliances unless specified.</p>
+            </details>
+
+            <details>
+                <summary>10. How do I book a viewing appointment through RentHelper?</summary>
+                <p>You can book an appointment by clicking the 'Book Appointment' link in the header or the 'Make an Inquiry' button on the home page. This takes you to our Contact page where you can submit your details and preferred date.</p>
+            </details>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Waghodiya RentHelper Project.</p>
+    </footer>
+
+</body>
+</html>

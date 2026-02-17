@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentals in Waghodiya | Budget Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html">🏠 RentHelper</a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#low">Low Budget</a>
+            <a href="#mid">Mid Range</a>
+            <a href="#premium">Premium</a>
+            <a href="faq.html">FAQ / Help</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 30px;">Choose Your Budget Range</h1>
+
+        <div class="budget-selection">
+            <a href="#low" class="budget-card low-budget">
+                <h3>1. 🎒 Student Budget</h3>
+                <p>₹ 4,000 - ₹ 7,000 / month</p>
+                <span>View Listings ⬇️</span>
+            </a>
+            <a href="#mid" class="budget-card mid-budget">
+                <h3>2. 🧑‍🤝‍🧑 Middle Class Budget</h3>
+                <p>₹ 7,000 - ₹ 15,000 / month</p>
+                <span>View Listings ⬇️</span>
+            </a>
+            <a href="#premium" class="budget-card premium-budget">
+                <h3>3. 💎 Premium Budget</h3>
+                <p>₹ 15,000+ / month</p>
+                <span>View Listings ⬇️</span>
+            </a>
+        </div>
+        
+        <h1 style="margin-top: 50px;">Available Houses in Waghodiya, Vadodara</h1>
+
+        <input type="radio" id="list-view" name="view-mode" checked>
+        <label for="list-view" class="view-btn">List View</label>
+
+        <input type="radio" id="grid-view" name="view-mode">
+        <label for="grid-view" class="view-btn">Grid View</label>
+        <div class="listing-wrapper">
+            <section id="low" class="category-section">
+                <h2>📉 Low Budget (Student Friendly) | ₹ 4,000 - ₹ 7,000</h2>
+                
+                <div class="house-card">
+                    <img src="images/lower1.jpg" alt="1BHK House" class="house-img">
+                    <div class="house-details">
+                        <h3>1 BHK - Near Parul University (ID 101)</h3>
+                        <p class="condition"><strong>Condition:</strong> Semi-furnished, Good ventilation</p>
+                        <p class="location">📍 Waghodiya Road, Opp. D-Mart</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 5,000</td></tr>
+                            <tr><td>Broker Commission (Fixed):</td><td>₹ 2,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 7,500</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 101" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                98765 43210
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house-card">
+                    <img src="images/lower2.jpg" alt="Single Room" class="house-img">
+                    <div class="house-details">
+                        <h3>Single Occupancy Room - Close to GIDC (ID 102)</h3>
+                        <p class="condition"><strong>Condition:</strong> Basic unfurnished, Attached bathroom</p>
+                        <p class="location">📍 Waghodiya GIDC Back Road</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 4,500</td></tr>
+                            <tr><td>Broker Commission (Fixed):</td><td>₹ 2,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 6,500</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 102" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                90123 45678
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/lower3.jpg" alt="1 RK Studio" class="house-img">
+                    <div class="house-details">
+                        <h3>1 RK Studio Apartment - Shared Balcony (ID 103)</h3>
+                        <p class="condition"><strong>Condition:</strong> Unfurnished, New wiring and plumbing</p>
+                        <p class="location">📍 Near Vuda Circle, Waghodiya</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 4,000</td></tr>
+                            <tr><td>Broker Commission (Fixed):</td><td>₹ 2,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 6,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 103" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                81234 56789
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/lower4.jpg" alt="Small 1BHK" class="house-img">
+                    <div class="house-details">
+                        <h3>Small 1 BHK - Close to Market Area (ID 104)</h3>
+                        <p class="condition"><strong>Condition:</strong> Good natural light, older building</p>
+                        <p class="location">📍 Main Bazaar Road, Waghodiya</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 6,500</td></tr>
+                            <tr><td>Broker Commission (Fixed):</td><td>₹ 3,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 9,500</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 104" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                70011 22334
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/lower5.jpg" alt="Double Room" class="house-img">
+                    <div class="house-details">
+                        <h3>Double Sharing Room in a Hostel Setup (ID 105)</h3>
+                        <p class="condition"><strong>Condition:</strong> Includes bed, study table, and fan</p>
+                        <p class="location">📍 Parul University Service Road</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 5,500</td></tr>
+                            <tr><td>Broker Commission (Fixed):</td><td>₹ 2,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 8,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 105" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                99887 76655
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="mid" class="category-section">
+                <h2>⚖️ Mid-Range Budget | ₹ 7,000 - ₹ 15,000</h2>
+
+                <div class="house-card">
+                    <img src="images/mid1.jpg" alt="2BHK Apartment" class="house-img">
+                    <div class="house-details">
+                        <h3>2 BHK House - Family Friendly (ID 201)</h3>
+                        <p class="condition"><strong>Condition:</strong> New construction, Modular kitchen, Balcony</p>
+                        <p class="location">📍 Near Ajwa Road, Prime Residency</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 10,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 10,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 20,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 201" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                91029 30485
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/mid2.jpg" alt="1BHK Large Flat" class="house-img">
+                    <div class="house-details">
+                        <h3>1 BHK Spacious Bungalow- Ideal for Working Professionals (ID 202)</h3>
+                        <p class="condition"><strong>Condition:</strong> Fully furnished (Bed, Fridge, Sofa), AC Unit</p>
+                        <p class="location">📍 Hanuman Temple Road, Opp. Reliance Mart</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 12,500</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 12,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 25,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 202" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                88001 12233
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/mid3.jpg" alt="3BHK unfurnished" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK Unfurnished House - Excellent for Large Family (ID 203)</h3>
+                        <p class="condition"><strong>Condition:</strong> Brand new, Open terrace access, Reserved parking</p>
+                        <p class="location">📍 Near Sardar Patel Ring Road, Waghodiya</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 14,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 14,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 28,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 203" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                97654 32109
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house-card">
+                    <img src="images/mid4.jpg" alt="2BHK Semi-furnished" class="house-img">
+                    <div class="house-details">
+                        <h3>2 BHK House - Semi-furnished with Wardrobes (ID 204)</h3>
+                        <p class="condition"><strong>Condition:</strong> Recently renovated, 24/7 water supply</p>
+                        <p class="location">📍 Vrundavan Complex, Opp. IDFC Bank</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 8,500</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 8,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 17,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 204" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                96543 21098
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/mid5.jpg" alt="1BHK Gated Society" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK in Gated Society - Security Included (ID 205)</h3>
+                        <p class="condition"><strong>Condition:</strong> Excellent security, Access to common garden area</p>
+                        <p class="location">📍 Global Residency, Near Parul University</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 7,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 7,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 14,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 205" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                80001 10002
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card">
+                    <img src="images/mid6.jpg" alt="2BHK Ground Floor" class="house-img">
+                    <div class="house-details">
+                        <h3>2 BHK Ground Floor Apartment - Easy Access (ID 206)</h3>
+                        <p class="condition"><strong>Condition:</strong> Ideal for elderly, Open parking slot</p>
+                        <p class="location">📍 Shivam Complex, Behind Domino's Pizza</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 9,500</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 9,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 19,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 206" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                77889 90011
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="premium" class="category-section">
+                <h2>💎 Premium Bungalows | ₹ 15,000+</h2>
+                
+                <div class="house-card premium-card">
+                    <img src="images/upper1.jpg" alt="3BHK Bungalow" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK Fully Furnished Bungalow (ID 301)</h3>
+                        <p class="condition"><strong>Condition:</strong> Newly Painted, AC in all rooms, Modular Kitchen</p>
+                        <p class="location">📍 Narayan Gardens, Waghodiya</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 18,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 18,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 36,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for Premium House ID 301" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                99009 90099
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card premium-card">
+                    <img src="images/upper2.jpg" alt="4BHK Villa" class="house-img">
+                    <div class="house-details">
+                        <h3>4 BHK Luxury Villa with Private Garden (ID 302)</h3>
+                        <p class="condition"><strong>Condition:</strong> High-end fittings, Servant quarter, 2-car parking</p>
+                        <p class="location">📍 VIP Road Extension, Premium Area</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 35,000</td></tr>
+                            <tr><td>Broker Commission (2 Months):</td><td>₹ 70,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 105,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for Premium House ID 302" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                87654 32101
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card premium-card">
+                    <img src="images/upper3.jpg" alt="2BHK Penthouse" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK House - w/ Driveway (ID 303)</h3>
+                        <p class="condition"><strong>Condition:</strong> Top floor, Private terrace, Uninterrupted views</p>
+                        <p class="location">📍 Near Parul University Main Gate</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 22,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 22,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 44,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for Premium House ID 303" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                93210 98765
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house-card premium-card">
+                    <img src="images/upper4.jpg" alt="3BHK Duplex" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK Duplex House - Corner Plot (ID 304)</h3>
+                        <p class="condition"><strong>Condition:</strong> Semi-furnished, Water storage tank, Pet-friendly</p>
+                        <p class="location">📍 Canal Road, Deluxe Residency</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 16,500</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 16,500</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 33,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 304" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                90909 09090
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card premium-card">
+                    <img src="images/upper5.jpg" alt="5BHK Farm House" class="house-img">
+                    <div class="house-details">
+                        <h3>5 BHK Farm House - Great for Large Gatherings (ID 305)</h3>
+                        <p class="condition"><strong>Condition:</strong> Huge compound, Fully equipped kitchen, Driver's room</p>
+                        <p class="location">📍 Outskirts of Waghodiya, near highway</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 45,000</td></tr>
+                            <tr><td>Broker Commission (2 Months):</td><td>₹ 90,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 135,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for Premium House ID 305" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                88997 76655
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="house-card premium-card">
+                    <img src="images/upper6.jpg" alt="3BHK Top Floor" class="house-img">
+                    <div class="house-details">
+                        <h3>3 BHK House stateside (ID 306)</h3>
+                        <p class="condition"><strong>Condition:</strong> Fully furnished, Access to swimming pool and gym</p>
+                        <p class="location">📍 Lavish Heights Society, Near City Centre</p>
+                        
+                        <table class="price-table">
+                            <tr><td>Monthly Rent:</td><td>₹ 25,000</td></tr>
+                            <tr><td>Broker Commission (1 Month):</td><td>₹ 25,000</td></tr>
+                            <tr class="total-row"><td><strong>First Month Total:</strong></td><td><strong>₹ 50,000</strong></td></tr>
+                        </table>
+
+                        <div class="contact-actions">
+                            <a href="mailto:broker@example.com?subject=Booking Inquiry for House ID 306" class="btn-book">Book Appointment</a>
+                            <div class="contact-info">
+                                Contact Broker:<br>
+                                70112 23344
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>

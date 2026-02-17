@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - RentHelper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html">🏠 RentHelper</a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="listing.html">View Houses</a>
+            <a href="contact.html" class="active">Book Appointment</a>
+            <a href="faq.html">FAQ / Help</a> 
+        </nav>
+    </header>
+
+    <div class="container form-container">
+        <h1>Schedule a House Visit</h1>
+        <p>Fill out this form to meet the broker and see the property.</p>
+
+        <form action="index.html" method="get" class="booking-form" onsubmit="return handleConfirmation(event);">
+            
+            <label>Your Name:</label>
+            <input type="text" name="Visitor_Name" placeholder="Enter your full name" required>
+
+            <label>Your Phone Number:</label>
+            <input type="tel" name="Phone_Number" placeholder="e.g., 98765 43210" required>
+
+            <label>Which House are you interested in?</label>
+            <select name="House_Category">
+                <option value="Low_Budget">Low Budget (1 BHK)</option>
+                <option value="Mid_Range">Mid Range (Flat)</option>
+                <option value="Premium">Premium (Bungalow)</option>
+            </select>
+
+            <label>Select Broker:</label>
+            <select name="Broker_Name">
+                <option value="Broker_Rajesh">Rajesh (Waghodiya Chowk)</option>
+                <option value="Broker_Amit">Amit (Parul Area)</option>
+            </select>
+
+            <label>Preferred Date for Visit:</label>
+            <input type="date" name="Visit_Date" required>
+
+            <button type="submit" class="btn-submit">Confirm Appointment</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Waghodiya RentHelper Project.</p>
+    </footer>
+
+    <script>
+        function handleConfirmation(event) {
+            
+            event.preventDefault(); 
+            
+            
+            alert("Appointment Confirmed! An associate will contact you shortly to finalize the details.");
+            
+            
+            window.location.href = 'index.html';
+
+            
+        }
+    </script>
+</body>
+</html>
